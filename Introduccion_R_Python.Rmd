@@ -1,0 +1,103 @@
+---
+title: "Mi primer libro de notas"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+##Algo sobre R y Python.
+Python y R son lenguages de "alto-nivel" en lugar de "bajo-nivel". Digamos que los lenguajes de "bajo-nivel" son aquellos que la maquina puede "interpretar directamente". Un lenguaje de "alto-nivel" requieren de una traduccion para que la maquina lo pueda ejecutar. Otros ejemplos de lenguajes de "alto-nivel" son C++, y Java.
+En el caso de R y Python la traducción a lenguaje de maquina se hace con la ayuda de un interprete, y no requieren ser compilados. Eso quiere decir que es possible tipear comandos (instrucciones) en los interpretes de R y Python, sin requerir ser compilados para ser procesado (C++ y Java son ejemplos de lenguajes que requieren ser compilados). 
+
+##Nota aclaratoria
+Todos los lenguages de programacion que conozco dicen tener sintaxis muy intuitivas. R y Python no son la excepcion, y claman ser intuitivos. Mi experiencia personal es que la intuicion se adquiere con la familiaridad. Asi que una vez se experimenta el lenguage, se empiezan a ganar intuciones sobre el.
+
+##Algunos detalles de lo que pasa tras escena.
+Cuando Python y R estan "corriendo", las *variables* y *funciones* se almacenan en la memoria activa del computador. Tecnicamente se almacenan como *objetos* con un nombre. Las variable se pueden "acceder" y "procesar", y dependiendo de su tipo podemos usar diferentes funciones (escritas por el usuario, o disponibles via paquetes). Por ejemplo, podemos procesar variables usando operadores (aritmeticos, logicos o de asignacion) 
+
+```{r}
+#---------------------------------------------------
+# You can see here how elegant R is!
+# Written by Maria Katherine Mejia Guerra, February 29th 2001
+#---------------------------------------------------
+
+print("Hello World")
+```
+
+###Operadores en R
+####Operadores aritméticos
+Operador	Descripción  
++	adición  
+-	substraccion  
+*	multiplicacion  
+/	división  
+^ ó **	exponentiación, potenciación  
+%% modulo   
+%/% division entera  
+
+
+####Operadores lógicos
+Operador	Descripción  
+>	mayor que  
+>=	mayor que o igual que  
+==	exactamente igual a  
+!=	diferente (no igual)  
+!var	negación  
+x | y 	x ó y   
+x & y 	x y y  
+isTRUE(x)	determine si X es TRUE
+
+####Operadores de asignación
+Operador	Descripción  
+= igual a, asigna a la variable del lado izquierdo la variable del lado derecho y hace una copia del objeto asignado  
+<- igual a, asigna a la variable del lado izquierdo la variable del lado derecho y NO hace una copia del objeto asignado  
+
+
+```{python}
+#---------------------------------------------------
+# You can see here how elegant Python is!
+# Written by Maria Katherine Mejia Guerra, February 29th 2001
+#---------------------------------------------------
+
+print("Hello World")
+```
+
+###Operadores en Python
+####Operadores aritméticos
+Operador	Descripción  
++	adición  
+-	substraccion  
+*	multiplicacion  
+/	división  
+^ ó **	exponentiación, potenciación  
+
+####Operadores lógicos
+Operador	Descripción  
+>	mayor que  
+>=	mayor que o igual que  
+==	exactamente igual a  
+!=	o <> differente (no igual)   
+!var	negación  
+x or y 	x ó y   
+x and y 	x y y  
+
+####Operadores de asignación
+Operador	Descripción  
+= igual a, asigna a la variable del lado izquierdo la variable del lado derecho  
++= suma a la variable del lado izquierdo el valor del lado derecho  
+-= resta a la variable del lado izquierdo el valor del lado derecho  
+*= multiplica  a la variable del lado izquierdo el valor del lado derecho  
+
+
+###Tipos de datos
+R y Python tienen una variedad de tipos (estructuras) de datos
+En R se conocen como scalars, vectors (numerical, character, logical), arrays, matrices, data frames, lists and factors.
+En Python hay cinco tipos basicos de datos
+Numbers, Strings, List, Tuple, Dictionary
+
+
+
+
+
+###Ayuda!
+
